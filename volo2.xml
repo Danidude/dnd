@@ -2,42 +2,51 @@
 <compendium version="5">
 <!--Volos-->
 	<monster>
-		<name>Firenewt Warrior</name>
+		<name>Dragonfang</name>
 		<size>M</size>
-		<type>humanoid (firenewt), Volo's Guide</type>
+		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
-		<ac>16 (chain shirt, shield)</ac>
-		<hp>22 (4d8+4)</hp>
+		<ac>15 (studded leather)</ac>
+		<hp>78 (12d8+24)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>13</dex>
-		<con>12</con>
-		<int>7</int>
-		<wis>11</wis>
-		<cha>8</cha>
-		<vulnerable></vulnerable>
-		<immune>fire</immune>
-		<passive>10</passive>
-		<languages>Draconic, Ignan</languages>
-		<cr>1/2</cr>
+		<str>11</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>12</wis>
+		<cha>14</cha>
+		<save>Wis +3</save>
+		<skill>Deception +4, Stealth +5</skill>
+		<resist>one of the following: acid, cold, fire, lightning or poison</resist>
+		<passive>11</passive>
+		<languages>Common, Draconic, Infernal</languages>
+		<cr>5</cr>
 		<trait>
-			<name>Amphibious</name>
-			<text>The firenewt can breathe air and water.</text>
+			<name>Dragon Fanatic</name>
+			<text>The dragonfang has advantage on saving throws against being charmed or frightened. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Fanatic Advantage</name>
+			<text>Once per turn, if the dragonfang makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage.</text>
+			<attack>Fanatic Advantage||3d6</attack>
+		</trait>
+		<trait>
+			<name>Limited Flight</name>
+			<text>The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The firenewt makes two attacks with its scimitar.</text>
+			<text>The Dragonfang attacks twice with its shortsword.</text>
 		</action>
 		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft. one target. Hit: 4 (1d6+1) slashing damage.</text>
-			<attack>Scimitar|3|1d6+1</attack>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance.</text>
+			<attack>Shortsword|5|1d6+3+2d6</attack>
 		</action>
 		<action>
-			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
-			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one</text>
-			<attack>Spit Fire||2d8</attack>
+			<name>Orb of Dragon's Breath (2/Day)</name>
+			<text>Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.</text>
+			<attack>Orb of Dragon's Breath|5|5d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 </compendium>
