@@ -15,13 +15,8 @@
 		<int>7</int>
 		<wis>11</wis>
 		<cha>8</cha>
-		<save></save>
-		<skill></skill>
-		<resist></resist>
 		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Draconic, Ignan</languages>
 		<cr>1/2</cr>
