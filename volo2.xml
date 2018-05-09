@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<!--Volos-->
+	<monster>
+		<name>Firenewt Warrior</name>
+		<size>M</size>
+		<type>humanoid (firenewt), Volo's Guide</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>22 (4d8+4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The firenewt makes two attacks with its scimitar.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft. one target. Hit: 4 (1d6+1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<action>
+			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
+			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one</text>
+			<attack>Spit Fire||2d8</attack>
+		</action>
+		<spells></spells>
+	</monster>
+</compendium>
